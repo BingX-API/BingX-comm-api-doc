@@ -180,13 +180,13 @@ curl --location --request GET 'https://open-api.bingx.com/openApi/v1/account/api
      
       SFUTURES_FUND，标准合约->资金账户
      
-      FUND_PFUTURES，资金账户->专业合约
+      FUND_PFUTURES，资金账户->永续账户
      
-      PFUTURES_FUND，专业合约->资金账户
+      PFUTURES_FUND，永续账户->资金账户
      
-      SFUTURES_PFUTURES，标准合约->专业合约
+      SFUTURES_PFUTURES，标准合约->永续账户
      
-      PFUTURES_SFUTURES，专业合约->标准合约
+      PFUTURES_SFUTURES，永续账户->标准合约
    
 ```
 
@@ -238,13 +238,13 @@ curl --location --request GET 'https://open-api.bingx.com/openApi/api/v3/get/ass
      
       SFUTURES_FUND，标准合约->资金账户
      
-      FUND_PFUTURES，资金账户->专业合约
+      FUND_PFUTURES，资金账户->永续账户
      
-      PFUTURES_FUND，专业合约->资金账户
+      PFUTURES_FUND，永续账户->资金账户
      
-      SFUTURES_PFUTURES，标准合约->专业合约
+      SFUTURES_PFUTURES，标准合约->永续账户
      
-      PFUTURES_SFUTURES，专业合约->标准合约
+      PFUTURES_SFUTURES，永续账户->标准合约
       
       FUND_STRADING，资金账户 -> 网格
       
@@ -254,13 +254,13 @@ curl --location --request GET 'https://open-api.bingx.com/openApi/api/v3/get/ass
       
       SFUTURES_CTRADING，标准合约账户 -> 跟单
       
-      PFUTURES_CTRADING，永续合约账户 -> 跟单
+      PFUTURES_CTRADING，永续账户 -> 跟单
       
       CTRADING_FUND，跟单 -> 资金账户
       
       CTRADING_SFUTURES，跟单 -> 标准合约账户
       
-      CTRADING_PFUTURES，跟单 -> 永续合约账户
+      CTRADING_PFUTURES，跟单 -> 永续账户
    
    
 ```
