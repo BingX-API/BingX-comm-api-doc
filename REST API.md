@@ -177,13 +177,13 @@ curl --location --request GET 'https://open-api.bingx.com/openApi/v1/account/api
      
       SFUTURES_FUND，Standard Contract -> Funding Account
      
-      FUND_PFUTURES，Funding Account -> Professional Contract
+      FUND_PFUTURES，Funding Account -> Perpetual Futures
      
-      PFUTURES_FUND，Professional Contract -> Funding Account
+      PFUTURES_FUND，Perpetual Futures -> Funding Account
      
-      SFUTURES_PFUTURES，Standard Contract -> Professional Contract
+      SFUTURES_PFUTURES，Standard Contract -> Perpetual Futures
      
-      PFUTURES_SFUTURES，Professional Contract -> Standard Contract
+      PFUTURES_SFUTURES，Perpetual Futures -> Standard Contract
    
 ```
 
